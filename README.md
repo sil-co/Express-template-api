@@ -10,6 +10,12 @@
 ### For Windows
 `"dev": "nodemon --watch \"src/**/*.ts\" --exec ts-node src/server.ts",`
 
+### `env` example
+```.env
+PORT=3000
+NODE_ENV=development
+```
+
 ### Curl Command
 - Create an item to send a POST request with JSON payload to the `/api/items` endpoint:
 ```bash

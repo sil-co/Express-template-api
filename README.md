@@ -7,6 +7,9 @@
 - `docker run -p 3000:3000 any-tag-name`: Run the Docker container
 - `npm run build`: Building or transpiling the TypeScript files
 
+### For Windows
+`"dev": "nodemon --watch \"src/**/*.ts\" --exec ts-node src/server.ts",`
+
 ### Curl Command
 - Create an item to send a POST request with JSON payload to the `/api/items` endpoint:
 ```bash
